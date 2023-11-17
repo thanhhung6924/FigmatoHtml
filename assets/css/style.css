@@ -547,7 +547,6 @@ a {
   display: flex;
 }
 .features .images {
-  width: 59%;
   gap: 30px;
   display: flex;
 }
@@ -561,4 +560,137 @@ a {
 }
 .features .images .img1 {
   margin-top: 34px;
+}
+.fearture2 .content {
+  width: 39%;
+}
+.fearture2 .body {
+  flex-direction: row-reverse;
+}
+.fearture2 .images {
+  flex-direction: row-reverse;
+}
+.fearture2 .content {
+  width: 49%;
+}
+.fearture2 .content .heading {
+  width: 570px;
+}
+.fearture2 .images img {
+  width: 470px;
+  height: 440px;
+  border-radius: 20px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.blog {
+  background: #fffcf4;
+}
+.blog .bodyblog {
+  margin-top: 200px;
+  padding: 96px 0px;
+}
+.blog .listitem {
+  gap: 30px;
+  display: flex;
+}
+.bodyblog .titleblog h2 {
+  color: #130606;
+
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 126.316%; /* 126.316% */
+}
+.bodyblog .titleblog p {
+  width: 448px;
+  color: #696262;
+
+  text-align: center;
+
+  font-size: 1.6rem;
+
+  font-weight: 400;
+  line-height: 28px;
+}
+.bodyblog .titleblog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bodyblog .bottom .times p {
+  color: #5f5b53;
+
+  font-size: 1.4rem;
+
+  font-weight: 400;
+  line-height: 185.714%;
+}
+.bodyblog .bottom .title {
+  width: 330px;
+  color: #171100;
+
+  font-size: 1.6rem;
+
+  font-weight: 600;
+  line-height: 175%;
+}
+.bodyblog .news .learn {
+  width: 370px;
+  height: 250px;
+  border-radius: 16px 16px 0px 0px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.bodyblog .news {
+  margin-top: 55px;
+  width: 370px;
+  border-radius: 16px;
+
+  border-radius: 16px;
+  background: #fff;
+}
+.bodyblog .news:hover {
+  border-radius: 16px;
+  background: #fff;
+
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+.bodyblog .news .times {
+  /*  */
+}
+.bodyblog .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 28px 0px;
+  margin-left: 20px;
+}
+.bodyblog .times {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.bodyblog .bottom .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: #ffb900;
+}
+.bodyblog .bottom .btn {
+  width: 118px;
+  height: 50px;
+
+  color: #fff;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 185.714% */
+}
+.bodyblog .bottom .btn:hover {
+  background: #ffb900;
+  opacity: 1;
+  border: #ffb900;
 }

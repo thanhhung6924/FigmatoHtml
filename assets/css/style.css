@@ -9,7 +9,6 @@ html {
 }
 /* Khôi phục lại theo rem */
 body {
-  height: 100000px;
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
 }
@@ -638,6 +637,7 @@ a {
   line-height: 175%;
 }
 .bodyblog .news .learn {
+  object-fit: cover;
   width: 370px;
   height: 250px;
   border-radius: 16px 16px 0px 0px;
@@ -664,7 +664,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin: 28px 0px;
+  margin: 20px 0px;
   margin-left: 20px;
 }
 .bodyblog .times {
@@ -692,5 +692,103 @@ a {
 .bodyblog .bottom .btn:hover {
   background: #ffb900;
   opacity: 1;
+
   border: #ffb900;
+}
+.blog .dots {
+  margin-top: 38px;
+  display: flex;
+
+  cursor: pointer;
+  justify-content: center;
+}
+.blog .dot {
+  width: 6px;
+  margin-right: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: #634700;
+}
+.blog .dot.active {
+  background: #ffb900;
+}
+.footer {
+  background: #2e2100;
+  padding-top: 96px;
+}
+.footer .row {
+  display: flex;
+}
+.footer .row .column {
+  width: 21%;
+}
+.footer .row .column:first-child {
+  width: 35%;
+}
+.footer .row .column .desc {
+  max-width: 268px;
+  color: #bfbcb2;
+
+  font-size: 1.4rem;
+  margin-top: 18px;
+  font-weight: 400;
+  line-height: 185.714%; /* 185.714% */
+}
+.footer .row .column .socials {
+  display: flex;
+  margin-top: 18px;
+  gap: 18px;
+  margin-bottom: 86px;
+}
+.footer .column .title {
+  display: inline-block;
+  padding-bottom: 14px;
+  padding-right: 48px;
+  border-bottom: 1px solid #59554b;
+  color: #fff;
+
+  font-size: 1.6rem;
+
+  font-weight: 600;
+  line-height: 1.75;
+}
+.footer .column .list {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+.footer .column .list li:first-child {
+  margin-top: 43px;
+}
+.footer .column .list a {
+  color: #bfbcb2;
+  display: inline-block;
+  font-size: 14px;
+
+  font-weight: 400;
+  line-height: 185.714%; /* 185.714% */
+}
+.footer .column .list strong {
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px; /* 185.714% */
+}
+.footer .hr {
+  margin-top: 28px;
+  width: 1170px;
+  height: 1px;
+  background: #59554b;
+  border: 1px solid #59554b;
+}
+.footer .paragra {
+  color: #807d74;
+  padding: 28px 0px;
+
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
 }
